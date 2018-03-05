@@ -14,7 +14,7 @@
 
     <CheckBoxPreference
         android:defaultValue="@bool/pref_show_mid_default"
-        key="@string/pref_show_mid_key"
+        android:key="@string/pref_show_mid_key"
         android:summaryOff="@string/pref_show_false"
         android:summaryOn="@string/pref_show_true"
         android:title="@string/pref_show_mid_label"/>

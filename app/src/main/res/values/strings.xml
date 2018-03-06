@@ -26,7 +26,9 @@
     <string name="pref_show_true">Shown</string>
     <string name="pref_show_false">Hidden</string>
 
-
+    <string  name="pref_size_mult_label">Size Multiplier</string>
+    <string name="pref_size_key" translatable="false">size</string>
+    <string name="pref_size_default">1</string>
     <!-- Label for the color preference -->
     <string name="pref_color_label">Shape Color</string>
 

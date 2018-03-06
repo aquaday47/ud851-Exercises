@@ -35,6 +35,14 @@ public class SettingsFragment extends PreferenceFragmentCompat {
 
         // Add visualizer preferences, defined in the XML file in res->xml->pref_visualizer
         addPreferencesFromResource(R.xml.pref_visualizer);
+
+        SharedPreferences sharedPrefs = getPreferenceScreen().getSharedPreferences();
+        PreferenceScreen prefScreen = getPreferenceScreen();
+        int count = prefScreen.getPreferenceCount();
+
+        for (int i = 0 ; i < count ; i++) {
+            Preference p = prefScreen.getPreference(i);
+        }
     }
 
 }
